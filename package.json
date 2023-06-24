@@ -1,0 +1,20 @@
+{
+  "name": "copitta",
+  "private": true,
+  "title": "Copitta",
+  "description": "Copy to clipboard in markdown format.",
+  "version": "2.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "zip": "zip -r dist.zip dist/ -x '*.DS_Store'",
+    "prod": "npm run build && npm run zip"
+  },
+  "devDependencies": {
+    "@crxjs/vite-plugin": "^1.0.14",
+    "@types/chrome": "^0.0.238",
+    "typescript": "^5.1.3",
+    "vite": "^4.3.9"
+  }
+}
